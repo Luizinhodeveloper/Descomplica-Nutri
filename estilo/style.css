@@ -297,13 +297,26 @@ span > a:hover {
     text-decoration: underline;
     color: black;
 }
-
+.biotipo {
+    color: #ff7300;
+    text-shadow: 1px 0px 1px black;
+    font-size: 18px;
+    margin-top: 2%;
+}
+img.img-bio {
+    width: 100%;
+    text-align: center;
+}
 @media (max-width: 768px) {
     .logo {
         width: 50%;
         height: auto;
     }
-
+    img.img-bio {
+        width: 90%;
+        height: auto;
+        text-align: center;
+    }
     nav ul {
         flex-direction: column;
         align-items: center;
@@ -324,10 +337,14 @@ span > a:hover {
 
 @media (max-width: 480px) {
     .logo {
-        width: 70%;
+        width: 50%;
         height: auto;
     }
-
+    img.img-bio{
+        width: 90%;
+        height: auto;
+    } 
+    
     nav ul {
         flex-direction: column;
         align-items: center;
