@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descomplica Nutrição | Vida Saudável</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="imgens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="imgens/logo.png" alt="logo" class="logo">
+            <h4>Restaurar e viver é saúde pra você</h4>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#planos">Planos Alimentares</a></li>
+                <li><a href="#exercicios">Dicas de Exercícios</a></li>
+                <li><a href="#receitas">Receitas Saudáveis</a></li>
+                <li><a href="#imc">Calcular IMC</a></li>
+                <a href="login.html"><img src="imgens/perfil.png" alt="icone-perfil" class="icone-perfil"><img></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="planos">
+            <h2><a href="pag001.html">Planos Alimentares</a></h2>
+            <p>Aqui você encontrará diversos planos alimentares para perda de peso e ganho de massa muscular.</p>
+        </section>
+        <section id="exercicios">
+            <h2><a href="pag002.html">Dicas de Exercícios</a></h2>
+            <p>Dicas e rotinas de exercícios para complementar sua dieta e alcançar seus objetivos.</p>
+        </section>
+        <section id="receitas">
+            <h2><a href="pag003.html">Receitas Saudáveis</a></h2>
+            <p>Receitas deliciosas e saudáveis para ajudar na sua jornada de perda de peso e ganho de massa muscular.</p>
+        </section>
+        <section id="imc">
+            <div class="area">
+                <div class="container">
+                    <h1>Calculador de IMC</h1>
+                    <div class="input_area">
+                        <h2>Altura (cm) </h2>
+                        <input id="height" type="number">
+                    </div>
+                    <div class="input_area">
+                        <h2>Peso (kg) </h2>
+                        <input id="weight" type="number">
+                    </div>
+                    <button onclick="calculate()">Calcular</button>
+                    <textarea name="" id="text_area" rows="8"></textarea>
+                    </div>
+            <p id="imc-result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nutrição para Perda de Peso e Ganho de Massa. Todos os direitos reservados.</p>
+    </footer>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

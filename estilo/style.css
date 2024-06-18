@@ -1,0 +1,360 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-image: linear-gradient(to right, #ff7300, #c72d2d);
+    color: white;
+    padding: 10px 0;
+    margin-top: -50px;
+    width: 105%;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin-top: -30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-shadow: 2px 2px 5px black;
+}
+
+.logo {
+    width: 18%;
+    height: 15%;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(2, 65, 0);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+main {
+    flex: 1;
+    padding: 30px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 800px;
+}
+
+section > p {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section > h2 {
+    text-align: center;
+    color: #ff7300;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00695c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #004d40;
+}
+
+footer {
+    background-color: #ff7300;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 105%;
+}
+
+h2 {
+    color: #D4D4D2;
+}
+
+h1 {
+    margin-block-start: 0em; 
+    color: white;
+}
+
+.input_area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    height: 1.5em;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.container {
+    background-color: #1C1C1C;
+    display: inline-flex;
+    padding: 1.5em;
+    border-radius: 0.5em;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 3em;
+    width: 100%;
+    background-color: #FF9500;
+    border: none;
+    color: white;
+    position: relative;
+}
+
+.btn-login {
+    width: 50%;
+    top: 10px;
+    left: 25%;
+    position: relative;
+}
+
+.btn-cadastro {
+    width: 50%;
+    top: 10px;
+    left: 25%;
+    position: relative;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.icone-perfil {
+    width: 30px;
+    height: 30px;
+    bottom: 30%;
+    left: 10px;
+    position: relative;
+}
+
+h1 > a:hover {
+    color: #2c504d;
+    text-decoration: underline;
+}
+
+article > h1 {
+    color: #ff7300;
+    text-shadow: 1px 0px 1px black;
+}
+
+article > p {
+    text-align: justify;
+    margin: 15px 0px;
+    text-indent: 40px;
+    line-height: 2em;
+}
+
+#lista-p {
+    text-align: justify;
+    margin: 15px 0px;
+    line-height: 1.8em;
+}
+
+div.video {
+    position: relative;
+    padding: 20px;
+    padding-bottom: 45%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div.gif {
+    position: relative;
+    padding: 20px;
+    padding: 25%;
+}
+
+div.gif > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+h2 > a {
+    text-decoration: none;
+    text-align: center;
+    color: #ff7300;
+}
+
+h2 > a:hover {
+    text-decoration: underline;
+}
+
+section > a {
+    color: black;
+    text-decoration: none;
+}
+
+section > a:hover {
+    text-decoration: underline;
+    color: ff5100;
+}
+
+span > a > p {
+    color: #ff5100;
+    text-shadow: 0px 0px 1px black;
+    text-align: center;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+span > a {
+    text-decoration: none;
+}
+
+span > a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 50%;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 70%;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    form input, form textarea {
+        width: 100%;
+    }
+
+    .btn-login, .btn-cadastro {
+        width: 80%;
+        left: 10%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
